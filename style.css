@@ -1,0 +1,50 @@
+@media screen and (max-width:600px){
+    body{
+        background-color: yellow;
+    }
+    div {
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .P{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:601px) and (max-width:1440px) {
+    body{
+        background-color:lightseagreen;
+    }
+    div {
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .P{
+        font-size:40px;
+        display:flex;
+        align-items: center;
+        flex-direction: row;
+        gap:20px;
+    }
+}
+@media screen and (min-width:1001px) {
+    body{
+        background-color:green;
+    }
+    div {
+        display:flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
+    .P{
+        font-size: 60px;
+        display:flex;
+        align-items: center;
+        flex-direction: row;
+        gap:10px;
+    }
+}
